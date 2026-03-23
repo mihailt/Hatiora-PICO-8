@@ -1,0 +1,16 @@
+{
+  "name": "Hatiora.Pico8.Tools",
+  "rootNamespace": "Hatiora.Pico8.Tools",
+  "references": [
+    "Hatiora.Pico8"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

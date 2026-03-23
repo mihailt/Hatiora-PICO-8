@@ -1,0 +1,9 @@
+{
+    "name": "com.hatiora.pico8.hello",
+    "version": "1.0.0",
+    "displayName": "PICO-8 Hello",
+    "description": "Translated clone of pico-8 hello.p8 demo cart",
+    "dependencies": {
+        "com.hatiora.pico8.unity": "1.0.0"
+    }
+}

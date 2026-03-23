@@ -1,0 +1,9 @@
+{
+    "name": "com.hatiora.pico8.dots3d",
+    "version": "1.0.0",
+    "displayName": "PICO-8 Dots3D",
+    "description": "Translated clone of pico-8 dots3d.p8 demo cart",
+    "dependencies": {
+        "com.hatiora.pico8.unity": "1.0.0"
+    }
+}

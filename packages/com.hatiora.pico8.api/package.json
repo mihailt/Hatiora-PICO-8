@@ -1,0 +1,9 @@
+{
+    "name": "com.hatiora.pico8.api",
+    "version": "1.0.0",
+    "displayName": "PICO-8 API",
+    "description": "Translated clone of pico-8 api.p8 demo cart",
+    "dependencies": {
+        "com.hatiora.pico8.unity": "1.0.0"
+    }
+}

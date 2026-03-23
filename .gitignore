@@ -1,0 +1,94 @@
+# ============================================================================
+# Root .gitignore — PICO-8 Monorepo
+# ============================================================================
+
+# ────────────────────────────────────────────────────────────────────────────
+# OS & Editor
+# ────────────────────────────────────────────────────────────────────────────
+[Dd]esktop.ini
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# ────────────────────────────────────────────────────────────────────────────
+# IDE
+# ────────────────────────────────────────────────────────────────────────────
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.csproj
+*.sln
+*.unityproj
+
+# ────────────────────────────────────────────────────────────────────────────
+# Unity — Apps (apps/**)
+# ────────────────────────────────────────────────────────────────────────────
+
+# Generated folders (per Unity project)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]serSettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# Auto-generated VS / Rider files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+
+# Unity lock file
+**/Packages/packages-lock.json
+
+# Crashlytics
+**/crashlytics-build.properties
+
+# Asset bundles
+**/[Aa]sset[Bb]undles/
+**/[Ss]treamingAssets/
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Code coverage
+**/[Cc]ode[Cc]overage/
+
+# ────────────────────────────────────────────────────────────────────────────
+# Unity — Packages (packages/**)
+# Packages are mostly source — only ignore test artifacts & generated files
+# ────────────────────────────────────────────────────────────────────────────
+# (Covered by the global patterns above — Library, Temp, obj, etc.)
+
+# ────────────────────────────────────────────────────────────────────────────
+# Misc
+# ────────────────────────────────────────────────────────────────────────────
+# NuGet
+*.nupkg
+[Pp]ackages/**/[Nn]u[Gg]et/
+
+# Debug logs
+debug.log
+
+# Plastic SCM
+*.ignore
+*.private
+.agents

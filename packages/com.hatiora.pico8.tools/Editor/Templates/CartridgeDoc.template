@@ -1,0 +1,33 @@
+# %CARTRIDGE_NAME% (`%ORIGINAL_P8%`)
+
+## Overview
+Auto-generated documentation for the `%CLASSNAME%` engine translation.
+*(Developer: fill in behavioral description of this cartridge)*
+
+## Implementation Details
+How the C# `%CLASSNAME%` accurately replicates the Lua logic. 
+
+### API Implementation Map
+The following table outlines the native PICO-8 functions used in the original `.p8` script and their C# translation counterparts:
+
+%API_COMPARISON_TABLE%
+
+### Raw C# Source
+```csharp
+%CSHARP_SOURCE%
+```
+
+## Cartridge Assets
+The following non-code data blocks were detected in the original `.p8` cartridge:
+%DATA_BLOCKS%
+
+## Original Lua Source
+
+### Raw Script Block
+Directly extracted from `%REF_REL_DIR%/%ORIGINAL_P8%`:
+```lua
+%LUA_SOURCE%
+```
+
+## EditMode Tests
+This cartridge's structural logic is formally verified in `Packages/%PACKAGE_NAME%/Tests/Editor/%CLASSNAME%Tests.cs`.

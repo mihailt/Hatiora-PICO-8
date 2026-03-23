@@ -1,0 +1,17 @@
+{
+    "name": "Hatiora.Pico8.Drippy",
+    "rootNamespace": "Hatiora.Pico8.Drippy",
+    "references": [
+        "Hatiora.Pico8",
+        "Hatiora.Pico8.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

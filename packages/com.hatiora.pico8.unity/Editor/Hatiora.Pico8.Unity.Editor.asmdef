@@ -1,0 +1,19 @@
+{
+    "name": "Hatiora.Pico8.Unity.Editor",
+    "rootNamespace": "Hatiora.Pico8.Unity.Editor",
+    "references": [
+        "Hatiora.Pico8",
+        "Hatiora.Pico8.Unity"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

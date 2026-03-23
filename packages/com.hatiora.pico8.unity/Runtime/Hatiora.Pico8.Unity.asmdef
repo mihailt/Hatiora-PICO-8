@@ -1,0 +1,17 @@
+{
+    "name": "Hatiora.Pico8.Unity",
+    "rootNamespace": "Hatiora.Pico8.Unity",
+    "references": [
+        "Hatiora.Pico8",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

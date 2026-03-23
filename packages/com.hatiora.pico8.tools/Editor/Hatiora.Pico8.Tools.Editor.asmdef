@@ -1,0 +1,19 @@
+{
+  "name": "Hatiora.Pico8.Tools.Editor",
+  "rootNamespace": "Hatiora.Pico8.Tools.Editor",
+  "references": [
+    "Hatiora.Pico8",
+    "Hatiora.Pico8.Tools"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Hatiora.Pico8.Tools.Tests",
+  "rootNamespace": "Hatiora.Pico8.Tools.Tests",
+  "references": [
+    "Hatiora.Pico8",
+    "Hatiora.Pico8.Tools"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

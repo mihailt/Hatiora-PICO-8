@@ -1,0 +1,10 @@
+{
+  "name": "com.hatiora.pico8.wander",
+  "version": "0.1.0",
+  "displayName": "PICO-8 Cartridge - Wander",
+  "description": "Wander PICO-8 Cartridge implementation.",
+  "dependencies": {
+    "com.hatiora.pico8": "file:../com.hatiora.pico8",
+    "com.hatiora.pico8.unity": "file:../com.hatiora.pico8.unity"
+  }
+}

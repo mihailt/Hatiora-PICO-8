@@ -1,0 +1,10 @@
+{
+  "name": "com.hatiora.pico8",
+  "version": "0.1.0",
+  "displayName": "Hatiora PICO-8",
+  "description": "Core PICO-8 engine package for Hatiora.",
+  "unity": "6000.3",
+  "author": {
+    "name": "Hatiora"
+  }
+}

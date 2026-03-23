@@ -1,0 +1,14 @@
+{
+    "name": "com.hatiora.pico8.unity",
+    "version": "0.1.0",
+    "displayName": "Hatiora PICO-8 Unity Adapter",
+    "description": "Unity adapter for the headless PICO-8 core engine.",
+    "unity": "6000.3",
+    "author": {
+        "name": "Hatiora"
+    },
+    "dependencies": {
+        "com.hatiora.pico8": "0.1.0",
+        "com.unity.inputsystem": "1.11.2"
+    }
+}

@@ -1,0 +1,34 @@
+using UnityEngine;
+using Hatiora.Pico8.Unity;
+
+namespace Hatiora.Pico8.[RawName]
+{
+    public class [RawName]Cartridge : Cartridge, IUnityCartridge
+    {
+        public override EngineSpec Spec => null; 
+        
+        public string SfxData   => Resources.Load<TextAsset>("[RawName]/[PrimaryP8Name]/Sfx/sfx")?.text;
+        public string MusicData => Resources.Load<TextAsset>("[RawName]/[PrimaryP8Name]/Music/music")?.text;
+        public string MapData   => Resources.Load<TextAsset>("[RawName]/[PrimaryP8Name]/Map/map")?.text;
+        public string GffData   => Resources.Load<TextAsset>("[RawName]/[PrimaryP8Name]/Gff/gff")?.text;
+        public Texture2D GfxTexture   => Resources.Load<Texture2D>("[RawName]/[PrimaryP8Name]/Gfx/gfx");
+        public Texture2D LabelTexture => Resources.Load<Texture2D>("[RawName]/[PrimaryP8Name]/Label/label");
+
+        public override void Init() {}
+
+        public override void Update()
+        {
+            // HiRes toggle is handled by the engine via Select button
+        }
+
+        public override void Draw()
+        {
+            Cls();
+            float scale = ContentScale;
+
+            Print("THIS IS PICO-8", (int)(37 * scale), (int)(52 * scale), 14, CoordMode.Virtual, scale);
+            Print("\u00C7", (int)(62 * scale), (int)(62 * scale), 8, CoordMode.Virtual, scale);
+            Print("NICE TO MEET YOU", (int)(34 * scale), (int)(72 * scale), 12, CoordMode.Virtual, scale);
+        }
+    }
+}

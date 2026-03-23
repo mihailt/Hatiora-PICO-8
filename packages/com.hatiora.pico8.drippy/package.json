@@ -1,0 +1,9 @@
+{
+    "name": "com.hatiora.pico8.drippy",
+    "version": "1.0.0",
+    "displayName": "PICO-8 Drippy",
+    "description": "Translated clone of pico-8 drippy.p8 demo cart",
+    "dependencies": {
+        "com.hatiora.pico8.unity": "1.0.0"
+    }
+}

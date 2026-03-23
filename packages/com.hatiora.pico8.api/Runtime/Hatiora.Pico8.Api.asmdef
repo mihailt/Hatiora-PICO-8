@@ -1,0 +1,17 @@
+{
+    "name": "Hatiora.Pico8.Api",
+    "rootNamespace": "Hatiora.Pico8.Api",
+    "references": [
+        "Hatiora.Pico8",
+        "Hatiora.Pico8.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
