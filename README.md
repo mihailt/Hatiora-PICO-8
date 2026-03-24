@@ -1,6 +1,6 @@
 # Hatiora PICO-8
 
-Hatiora PICO-8 is a Unity-based runtime for building PICO-8-style games in C#. It reproduces key parts of the PICO-8 programming model and cartridge workflow inside Unity, while opening the door to the wider Unity ecosystem and deployment targets.
+Hatiora is a Unity-based port of PICO-8 for building PICO-8-style games in C#. It reproduces key parts of the PICO-8 programming model and cartridge workflow inside Unity, while opening the door to the wider Unity ecosystem and deployment targets.
 
 The repository includes the runtime, the Unity host application, editor tooling, and a growing library of cartridge ports and experiments.
 
